@@ -1,0 +1,9 @@
+name: synthegranon
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip=25.3
+  - pip:
+    - -r requirements.txt

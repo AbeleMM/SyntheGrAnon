@@ -1,0 +1,16 @@
+\begin{tabular}{llllllll}
+\toprule
+Dataset & Model & \multicolumn{3}{r}{mean} & \multicolumn{3}{r}{max} \\
+ &  & singling-out & linkability & inference & singling-out & linkability & inference \\
+\midrule
+Ego-Facebook & EDGE & $0.09 \pm 0.04$ & $0.09 \pm 0.14$ & $0.02 \pm 0.06$ & $0.12 \pm 0.03$ & $0.38 \pm 0.51$ & $0.26 \pm 0.56$ \\
+Ego-Facebook & GruM & $0.05 \pm 0.02$ & $0.21 \pm 0.21$ & $0.19 \pm 0.26$ & $0.07 \pm 0.02$ & $0.76 \pm 0.27$ & $0.63 \pm 0.38$ \\
+Ego-Facebook & SPECTRE & $0.04 \pm 0.02$ & $0.29 \pm 0.20$ & $0.12 \pm 0.23$ & $0.05 \pm 0.04$ & $0.68 \pm 0.42$ & $0.68 \pm 0.42$ \\
+Ego-Twitter & EDGE & $0.09 \pm 0.04$ & $0.04 \pm 0.05$ & $0.00 \pm 0.01$ & $0.12 \pm 0.03$ & $0.17 \pm 0.20$ & $0.07 \pm 0.11$ \\
+Ego-Twitter & GRAN & $0.01 \pm 0.01$ & $0.04 \pm 0.11$ & $0.02 \pm 0.10$ & $0.02 \pm 0.01$ & $0.57 \pm 0.28$ & $0.72 \pm 0.40$ \\
+Ego-Twitter & GruM & $0.11 \pm 0.04$ & $0.04 \pm 0.05$ & $0.13 \pm 0.27$ & $0.13 \pm 0.04$ & $0.25 \pm 0.31$ & $0.72 \pm 0.40$ \\
+Ego-Twitter & SPECTRE & $0.06 \pm 0.03$ & $0.00 \pm 0.01$ & $0.06 \pm 0.18$ & $0.09 \pm 0.04$ & $0.08 \pm 0.39$ & $0.72 \pm 0.40$ \\
+Elliptic & EDGE & $0.04 \pm 0.02$ & $0.00 \pm 0.00$ & $0.00 \pm 0.00$ & $0.06 \pm 0.03$ & $0.03 \pm 0.29$ & $0.00 \pm 0.08$ \\
+Elliptic & GRAN & $0.00 \pm 0.01$ & $0.04 \pm 0.08$ & $0.00 \pm 0.00$ & $0.02 \pm 0.01$ & $0.29 \pm 0.26$ & $0.00 \pm 0.17$ \\
+\bottomrule
+\end{tabular}

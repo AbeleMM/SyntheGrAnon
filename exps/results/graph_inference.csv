@@ -1,0 +1,433 @@
+dataset,model,n_attacks,aux_cols,secret,gt_baseline,risk_value,risk_ci_lwr,risk_ci_upr
+ego-facebook,edge,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,['avg_clustering'],diameter,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,['avg_clustering'],diameter,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg']",diameter,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg']",diameter,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,['avg_clustering'],n_nodes,True,0.0,0.0,0.521
+ego-facebook,grum,-1,['avg_clustering'],n_nodes,True,0.0034,0.0,0.6263
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg']",n_nodes,True,0.2551,0.0,0.8147
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg']",n_nodes,True,0.5067,0.0506,0.9628
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,True,0.2551,0.0,0.8147
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,True,0.6325,0.253,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,True,0.1292,0.0,0.7245
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,True,0.6325,0.253,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,True,0.1292,0.0,0.7245
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,True,0.6325,0.253,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,True,0.1292,0.0,0.7245
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,True,0.6325,0.253,1.0
+ego-facebook,edge,-1,['avg_clustering'],radius,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,['avg_clustering'],radius,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg']",radius,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg']",radius,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,False,0.5067,0.0,1.0
+ego-facebook,edge,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.4093
+ego-twitter,edge,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,['avg_clustering'],diameter,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,['avg_clustering'],diameter,False,0.2715,0.0,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg']",diameter,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg']",diameter,False,0.0,0.0,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,True,0.7156,0.3135,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,True,0.7156,0.3135,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,True,0.7156,0.3135,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,True,0.7156,0.3135,1.0
+ego-twitter,edge,-1,['avg_clustering'],n_nodes,True,0.0411,0.0,0.1521
+ego-twitter,grum,-1,['avg_clustering'],n_nodes,False,0.0,0.0,0.0473
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg']",n_nodes,True,0.0,0.0,0.1349
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg']",n_nodes,False,0.0,0.0,0.118
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,True,0.054,0.0,0.1665
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,True,0.0,0.0,0.146
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,True,0.067,0.0,0.1809
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,True,0.0022,0.0,0.1084
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,True,0.0151,0.0,0.1231
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,True,0.0022,0.0,0.1084
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,True,0.0151,0.0,0.1231
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,False,0.0022,0.0,0.1084
+ego-twitter,edge,-1,['avg_clustering'],radius,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,['avg_clustering'],radius,False,0.2715,0.0,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg']",radius,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg']",radius,False,0.0,0.0,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,False,0.7156,0.3135,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,True,0.7156,0.3135,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,True,0.7156,0.3135,1.0
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,True,0.7156,0.3135,1.0
+ego-twitter,edge,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,grum,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.0337
+elliptic,edge,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,edge,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.0771
+elliptic,edge,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,edge,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,edge,-1,['avg_clustering'],diameter,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg']",diameter,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,False,0.0,0.0,0.0771
+elliptic,edge,-1,['avg_clustering'],n_nodes,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg']",n_nodes,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,False,0.0,0.0,0.0771
+elliptic,edge,-1,['avg_clustering'],radius,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg']",radius,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,False,0.0,0.0,0.0771
+elliptic,edge,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.0771
+elliptic,edge,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.0771
+ego-facebook,spectre,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,['avg_clustering'],diameter,True,0.2499,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg']",diameter,True,0.3378,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,True,0.5067,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,True,0.6325,0.253,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,True,0.6325,0.253,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,True,0.6756,0.2579,1.0
+ego-facebook,spectre,-1,['avg_clustering'],n_nodes,False,0.0,0.0,0.7214
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg']",n_nodes,False,0.0,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,False,0.0,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,False,0.0,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,False,0.0,0.0,0.7214
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,False,0.0,0.0,0.7214
+ego-facebook,spectre,-1,['avg_clustering'],radius,True,0.2499,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg']",radius,True,0.3378,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,True,0.5067,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,True,0.6325,0.253,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,True,0.5067,0.0,1.0
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,True,0.6756,0.2579,1.0
+ego-facebook,spectre,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.4093
+ego-facebook,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.4093
+ego-twitter,spectre,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,['avg_clustering'],diameter,False,0.1234,0.0,1.0
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg']",diameter,False,0.0,0.0,1.0
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,False,0.2079,0.0,0.9912
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,False,0.0,0.0,0.9412
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,False,0.2533,0.0,0.9201
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,True,0.7156,0.3135,1.0
+ego-twitter,spectre,-1,['avg_clustering'],n_nodes,False,0.0,0.0,0.0
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg']",n_nodes,False,0.0,0.0,0.0615
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,True,0.0,0.0,0.0898
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,True,0.0,0.0,0.0656
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,False,0.0,0.0,0.0656
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,False,0.0,0.0,0.0656
+ego-twitter,spectre,-1,['avg_clustering'],radius,False,0.1234,0.0,1.0
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg']",radius,False,0.0,0.0,1.0
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,False,0.2079,0.0,0.9912
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,False,0.0,0.0,0.9412
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,True,0.7156,0.3135,1.0
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,True,0.7156,0.3135,1.0
+ego-twitter,spectre,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,spectre,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,['avg_clustering'],diameter,True,0.0341,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg']",diameter,True,0.0,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,True,0.0,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,True,0.0,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,True,0.0,0.0,0.8883
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,True,0.7156,0.3135,1.0
+ego-twitter,gran,-1,['avg_clustering'],n_nodes,True,0.0151,0.0,0.1231
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg']",n_nodes,True,0.0,0.0,0.132
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,True,0.0,0.0,0.146
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,False,0.0,0.0,0.118
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,True,0.0,0.0,0.1039
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,False,0.0,0.0,0.0898
+ego-twitter,gran,-1,['avg_clustering'],radius,True,0.0341,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg']",radius,True,0.0,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,True,0.0,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,True,0.0,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,True,0.0,0.0,1.0
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,True,0.0,0.0,1.0
+ego-twitter,gran,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.0337
+ego-twitter,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.0337
+elliptic,gran,-1,['avg_deg'],avg_clustering,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_deg', 'avg_shortest_path_len']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_clustering,False,0.0,0.0,0.0771
+elliptic,gran,-1,['avg_clustering'],avg_deg,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_shortest_path_len']",avg_deg,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef']",avg_deg,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",avg_deg,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_deg,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_deg,False,0.0,0.0,0.0771
+elliptic,gran,-1,['avg_clustering'],avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'deg_assortativity_coef', 'diameter', 'n_nodes', 'radius']",avg_shortest_path_len,False,0.0,0.0,0.0771
+elliptic,gran,-1,['avg_clustering'],deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'diameter', 'n_nodes', 'radius']",deg_assortativity_coef,False,0.0,0.0,0.0771
+elliptic,gran,-1,['avg_clustering'],diameter,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg']",diameter,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",diameter,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",diameter,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes']",diameter,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'n_nodes', 'radius']",diameter,False,0.0,0.0,0.0771
+elliptic,gran,-1,['avg_clustering'],n_nodes,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg']",n_nodes,False,0.0,0.0,0.1074
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",n_nodes,False,0.0,0.0,0.1074
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",n_nodes,True,0.0,0.0,0.167
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",n_nodes,True,0.0,0.0,0.167
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'radius']",n_nodes,True,0.0,0.0,0.167
+elliptic,gran,-1,['avg_clustering'],radius,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg']",radius,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",radius,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",radius,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",radius,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",radius,False,0.0,0.0,0.0771
+elliptic,gran,-1,['avg_clustering'],transitivity,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg']",transitivity,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len']",transitivity,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef']",transitivity,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter']",transitivity,False,0.0,0.0,0.0771
+elliptic,gran,-1,"['avg_clustering', 'avg_deg', 'avg_shortest_path_len', 'deg_assortativity_coef', 'diameter', 'n_nodes']",transitivity,False,0.0,0.0,0.0771
