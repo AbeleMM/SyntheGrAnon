@@ -139,7 +139,7 @@ The result is supported by Experiments 1 and 3 below.
 - Execution steps:
 
 ```bash
-python run.py reproduce
+python run.py quick
 ```
 
 - Expected result: the plots in `exps/plots` and tables in `exps/tables` are recomputed and overwritten to disk based on the raw measurements from `exps/results` and `exps/utility.csv`.
