@@ -294,26 +294,26 @@ def _attack_graph_single(
 
     evaluate_args = {}
 
-    if type(conf) == NodeInferenceExpConf:
+    if type(conf) is NodeInferenceExpConf:
         evaluator_cls = NodeInferenceEvaluator
-    elif type(conf) == NodeLinkabilityExpConf:
+    elif type(conf) is NodeLinkabilityExpConf:
         evaluator_cls = NodeLinkabilityEvaluator
-    elif type(conf) == NodeSinglingOutExpConf:
+    elif type(conf) is NodeSinglingOutExpConf:
         evaluate_args |= {k: evaluator_args.pop(k) for k in ["n_cols", "min_matching_syns"]}
         evaluator_cls = NodeSinglingOutEvaluator
-    elif type(conf) == EdgeInferenceExpConf:
+    elif type(conf) is EdgeInferenceExpConf:
         evaluator_cls = EdgeInferenceEvaluator
-    elif type(conf) == EdgeLinkabilityExpConf:
+    elif type(conf) is EdgeLinkabilityExpConf:
         evaluator_cls = EdgeLinkabilityEvaluator
-    elif type(conf) == EdgeSinglingOutExpConf:
+    elif type(conf) is EdgeSinglingOutExpConf:
         evaluate_args |= {k: evaluator_args.pop(k) for k in ["n_cols", "min_matching_syns"]}
         evaluator_cls = EdgeSinglingOutEvaluator
     #
-    elif type(conf) == GraphInferenceExpConf:
+    elif type(conf) is GraphInferenceExpConf:
         evaluator_cls = InferenceEvaluator
-    elif type(conf) == GraphLinkabilityExpConf:
+    elif type(conf) is GraphLinkabilityExpConf:
         evaluator_cls = LinkabilityEvaluator
-    elif type(conf) == GraphSinglingOutExpConf:
+    elif type(conf) is GraphSinglingOutExpConf:
         evaluate_args["mode"] = (
             "multivariate" if evaluator_args.pop("n_cols") > 1 else "univariate")
         evaluator_cls = SinglingOutEvaluator
@@ -340,8 +340,7 @@ def attack_graph_dataset(
         dataset: str,
         attack_type: type[GraphExpConf],
         models: Sequence[MODEL_TYPE],
-        param_grid: dict[str, Sequence],
-        rerun: bool) -> pd.DataFrame:
+        param_grid: dict[str, Sequence]) -> pd.DataFrame:
     data_path = Path(__file__).parent / "datasets" / dataset
     ds_fname = (
         f"{dataset}_"
@@ -390,7 +389,7 @@ def attack_graph_dataset(
     exp_configs_df = pd.DataFrame([c.model_dump() for c in exp_configs])
     res_path = Path(__file__).parent / "results" / f"{attack_type.get_name()}.csv"
 
-    if res_path.exists() and not rerun:
+    if res_path.exists():
         res_df = _df_seq_to_str(pd.read_csv(res_path))
         merge_df = _df_seq_to_str(exp_configs_df).merge(
             res_df,
@@ -410,7 +409,7 @@ def attack_graph_dataset(
         res_df_rows.append(res_df_row)
         res_df_row.to_csv(
             res_path,
-            mode='w' if rerun else 'a',
+            mode='a',
             header=not res_path.exists(),
             index=False
         )

@@ -20,8 +20,6 @@ The codebase is based upon that of [Anonymeter](https://github.com/statice/anony
 
 Paper title: **Measuring Legislature-Aligned Privacy Risks in Synthetic Graphs**
 
-## Artifact Review
-
 Requested Badge(s):
   - [x] **Available**
   - [x] **Functional**

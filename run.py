@@ -7,40 +7,6 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).parent.resolve()
 
-EXPECTED_ROWS = {
-    "edge_inference.csv": 404,
-    "edge_linkability.csv": 50,
-    "edge_singling-out.csv": 250,
-    "graph_inference.csv": 432,
-    "graph_linkability.csv": 270,
-    "graph_singling-out.csv": 72,
-    "node_inference.csv": 1816,
-    "node_linkability.csv": 490,
-    "node_singling-out.csv": 2980,
-}
-
-EXPECTED_UTILITY_COMBINATIONS = {
-    ("ego-facebook", "attr", "edge"),
-    ("ego-facebook", "attr", "ggsd"),
-    ("ego-facebook", "attr", "grum"),
-    ("ego-facebook", "attr", "spectre"),
-    ("ego-twitter", "attr", "edge"),
-    ("ego-twitter", "attr", "ggsd"),
-    ("ego-twitter", "attr", "grum"),
-    ("ego-twitter", "attr", "spectre"),
-    ("elliptic", "attr", "edge"),
-    ("elliptic", "attr", "ggsd"),
-    ("ego-facebook", "unattr", "edge"),
-    ("ego-facebook", "unattr", "grum"),
-    ("ego-facebook", "unattr", "spectre"),
-    ("ego-twitter", "unattr", "edge"),
-    ("ego-twitter", "unattr", "grum"),
-    ("ego-twitter", "unattr", "spectre"),
-    ("ego-twitter", "unattr", "gran"),
-    ("elliptic", "unattr", "edge"),
-    ("elliptic", "unattr", "gran"),
-}
-
 UTILITY_CONFIGS = (
     ("ego-facebook", "attr", ("edge", "ggsd", "grum", "spectre")),
     ("ego-twitter", "attr", ("edge", "ggsd", "grum", "spectre")),
@@ -97,12 +63,25 @@ def process_results() -> None:
     run_command("exps/proc_graph_exps.py")
 
 
+def clear_attack_results() -> None:
+    attack_results_dir = ROOT_DIR / "exps" / "results"
+
+    for fname in attack_results_dir.glob("*.csv"):
+        fname.unlink(missing_ok=True)
+
+
+def clear_utility_results() -> None:
+    (ROOT_DIR / "exps" / "utility.csv").unlink(missing_ok=True)
+
+
 def run_attacks() -> None:
-    run_command("exps/run_graph_exps.py", "--rerun")
+    clear_attack_results()
+    run_command("exps/run_graph_exps.py")
     process_results()
 
 
 def run_utility() -> None:
+    clear_utility_results()
     subprocess.run(
         ["g++", "-O2", "-std=c++11", "-o", "orca", "orca.cpp"],
         cwd=ROOT_DIR / "exps" / "orca",
@@ -117,7 +96,6 @@ def run_utility() -> None:
             data_type,
             "--models",
             *models,
-            "--rerun",
         )
 
     process_results()

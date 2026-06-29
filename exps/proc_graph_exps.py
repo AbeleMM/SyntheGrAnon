@@ -6,11 +6,13 @@ import seaborn as sns
 from matplotlib.ticker import MaxNLocator
 
 BASE_PATH = Path(__file__).parent
+
 DATASET_VAL_MAPPING = {
     "ego-facebook": "Ego-Facebook",
     "ego-twitter": "Ego-Twitter",
     "elliptic": "Elliptic"
 }
+
 MODEL_VAL_MAPPING = {
     "edge": "EDGE",
     "ggsd": "GGSD",
@@ -18,9 +20,9 @@ MODEL_VAL_MAPPING = {
     "spectre": "SPECTRE",
     "gran": "GRAN"
 }
+
 MODEL_COLORS = dict(zip(
     ["EDGE", "GGSD", "GruM", "SPECTRE", "GRAN"], sns.color_palette()))
-PLOT_KWARGS = {"bbox_inches": "tight", "metadata": {"CreationDate": None}}
 
 sns.set_context("paper", font_scale=1.75)
 

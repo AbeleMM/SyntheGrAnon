@@ -26,11 +26,13 @@ from scipy.linalg import eigvalsh, toeplitz
 from sklearn.metrics import roc_auc_score
 from tqdm import tqdm
 
-motif_to_indices = {
+MOTIF_TO_INDICES = {
     "3path": [1, 2],
     "4cycle": [8],
 }
+
 COUNT_START_STR = "orbit counts:"
+
 RAND = Random(-1)
 
 
@@ -482,7 +484,7 @@ def motif_stats(
     pred_graphs = [
         G for G in pred_graphs if not G.number_of_nodes() == 0
     ]
-    indices = motif_to_indices[motif_type]
+    indices = MOTIF_TO_INDICES[motif_type]
 
     for G in true_graphs:
         orbit_counts = orca(G)
@@ -805,7 +807,6 @@ def main() -> None:
     parser.add_argument("--dataset")
     parser.add_argument('--type')
     parser.add_argument("--models", nargs='+')
-    parser.add_argument("--rerun", action="store_true")
     args = parser.parse_args()
 
     base_dir = Path(__file__).parent
@@ -837,7 +838,7 @@ def main() -> None:
     exp_configs_df = pd.DataFrame(exp_configs)
     res_path = base_dir / "utility.csv"
 
-    if res_path.exists() and not args.rerun:
+    if res_path.exists():
         res_df = pd.read_csv(res_path)
         merge_df = exp_configs_df.merge(
             res_df,
@@ -883,7 +884,7 @@ def main() -> None:
         res_df_row = pd.DataFrame([config | pred_mmd | downstream]).round(4)
         res_df_row.to_csv(
             res_path,
-            mode='w' if args.rerun else 'a',
+            mode='a',
             header=not res_path.exists(),
             index=False
         )

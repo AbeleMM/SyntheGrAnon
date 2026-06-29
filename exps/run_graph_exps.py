@@ -36,9 +36,8 @@ def nr_tab_attrs(ds_name: str) -> int:
 
 def main() -> None:
     parser = ArgumentParser()
-    parser.add_argument("--rerun", action="store_true")
-    args = parser.parse_args()
-    rerun: bool = args.rerun
+    parser.parse_args()
+
     ds_to_nr_tab_attrs = {
         ds: nr_tab_attrs(ds) for ds in ["ego-facebook", "ego-twitter", "elliptic"]}
     models = ["edge", "ggsd", "grum", "gran", "spectre"]
@@ -60,7 +59,6 @@ def main() -> None:
                 "aux_cols": ["feat"] * (nr_ds_tab_attrs > 1) + ["struct", "all"],
                 "secret": node_attr_secrets
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -74,7 +72,6 @@ def main() -> None:
                     ["struct-struct", "feat-struct", "random"]),
                 "n_neighbors": sweep_nr_neigh_and_min_syn
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -87,7 +84,6 @@ def main() -> None:
                 "n_cols": list(range(1, nr_ds_tab_attrs + 1)),
                 "min_matching_syns": sweep_nr_neigh_and_min_syn
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -100,7 +96,6 @@ def main() -> None:
                 "n_cols": list(range(1, nr_node_struct_attrs + 1)),
                 "min_matching_syns": sweep_nr_neigh_and_min_syn
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -113,7 +108,6 @@ def main() -> None:
                 "n_cols": list(range(1, nr_ds_tab_attrs + nr_node_struct_attrs + 1)),
                 "min_matching_syns": sweep_nr_neigh_and_min_syn
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -125,7 +119,6 @@ def main() -> None:
                 "secret": node_attr_secrets,
                 "struct_attrs": single_node_struct_attrs
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -137,7 +130,6 @@ def main() -> None:
                 "n_neighbors": sweep_nr_neigh_and_min_syn,
                 "struct_attrs": single_node_struct_attrs
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -150,7 +142,6 @@ def main() -> None:
                 "min_matching_syns": sweep_nr_neigh_and_min_syn,
                 "struct_attrs": single_node_struct_attrs
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -165,7 +156,6 @@ def main() -> None:
                     for node_idx in range(2)
                 ]
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -176,7 +166,6 @@ def main() -> None:
                 "aux_cols": ["random"],
                 "n_neighbors": sweep_nr_neigh_and_min_syn
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -188,7 +177,6 @@ def main() -> None:
                 "n_cols": sweep_nr_neigh_and_min_syn,
                 "min_matching_syns": sweep_nr_neigh_and_min_syn
             },
-            rerun
         )
 
     for ds in ds_to_nr_tab_attrs:
@@ -206,7 +194,6 @@ def main() -> None:
                         for j in range(1, nr_graph_struct_attrs - 1)],
                     "secret": [a]
                 },
-                rerun
             )
 
         attack_graph_dataset(
@@ -223,7 +210,6 @@ def main() -> None:
                 ],
                 "n_neighbors": sweep_nr_neigh_and_min_syn
             },
-            rerun
         )
 
         attack_graph_dataset(
@@ -233,7 +219,6 @@ def main() -> None:
                 "embed": [False],
                 "n_cols": list(range(1, nr_graph_struct_attrs + 1))
             },
-            rerun
         )
 
 
