@@ -164,7 +164,7 @@ python run.py attacks
 python run.py utility
 ```
 
-- Expected result: the raw measurements in `exps/utility.csv` are recomputed and overwritten to disk, also the tables in `exps/tables` are recomputed and overwritten to disk based on the newly-computed utility/MMD measurements (using pre-existing raw measurements for attacks).
+- Expected result: the raw measurements in `exps/utility.csv` are recomputed and overwritten to disk, also the tables in `exps/tables` are recomputed and overwritten to disk based on the newly-computed utility/MMD measurements (using pre-existing raw measurements for attacks); note that in the attributed ego-facebook EDGE setting, utility is considerably more volatile across runs than in other scenarios, and as such the obtained result may differ significantly from the one reported in the paper.
 - Time: 15 human minutes and approximately 0.5 compute-days on 32 CPU threads and a modern CUDA-capable GPU.
 - Supported results and claims: 4 by reproducing the utility and MMD measurements from Tables 3, 4, 6, and 7.
 
